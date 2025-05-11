@@ -1,0 +1,408 @@
+  /***************
+  * FORMATAÇÃO *
+  ***************/
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* O comando abaixo, evita que o padding afete largura e altura */
+    box-sizing: border-box;
+  }
+  
+  /************
+  * CABEÇALHO *
+  *************/
+  header {
+    padding: 32px;
+    justify-content:flex-start;
+  }
+
+  header code {
+    color: black;
+  }
+  
+  /***************
+  * ASIDE E MAIN *
+  ***************/
+  aside {
+    background-color:darkred;
+    border: 5px solid #B22222;
+  }
+
+  li {
+    list-style-type: none;
+    font-size: 30px;
+  }
+
+  li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: 	#FFD700;
+    text-decoration: underline;
+  }
+
+  code {
+    font-size: 28pt;
+    padding-left: 40%;
+  }
+
+  .most {
+    color: #F8F8FF;
+    font-size: 26px;
+  }
+
+  .fil {
+    color: white;
+    background: none;
+  }
+
+  aside, main { 
+    padding: 16px; 
+    height: 900px;
+  }
+
+  main {
+    background-color: #800000;
+    padding: 64px;
+  }
+
+  ul img {
+    width: 168px!important;
+    height:250px!important;
+  }
+
+  .one, .two {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding-left: 100px;
+  }
+  
+  /*********
+  * RODAPÉ *
+  *********/
+  footer {
+    background-color: #800000;
+    padding: 6px;
+    padding-top: 50px;
+  }
+
+  footer p {
+    color: black;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /************
+  * PESQUISA  *
+  ************/
+  .search-form {
+    display: flex;
+    justify-content:center;
+    padding-left: 200px;
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #008080;
+    border-radius: 25px;
+    padding: 10px;
+    width: 720px;
+    background: white;
+  }
+
+  .search-box input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    flex: 1;
+    font-size: 15px;
+  }
+
+  .search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 15px;
+  }
+  
+  /************
+  * NAVEGAÇÃO *
+  *************/
+  .navbar {
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar li {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: 	#FFD700;
+    text-decoration: underline;
+  }
+
+
+    /*********
+  * CARDS *
+  *********/
+  .custom-card-img {
+    width: 168px !important;
+    height: 250px !important;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .card-title {
+    font-size: 24px;
+    color: white;
+  }
+
+  .card {
+    border: none !important;
+    box-shadow: none !important;
+    background: none !important;
+  }
+
+  .card-body {
+    padding: 0 !important;
+    background: none;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 16px;
+    color: white;
+  }
+
+  /******************
+  * DADOS DO ALUNO *
+  ******************/
+  .iury {
+    align-items: flex-end;
+    width: 160px;
+    height: 120px;
+  }
+
+  .aln {
+    color: black;
+    gap: 0;
+  }
+  
+  footer {
+    display: flex;
+    flex-flow:row;
+    justify-content:space-between;
+    align-items:flex-end ;
+  }
+
+  .aluno {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .social {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+  }
+ 
+  
+  @media all and (min-width: 768px) {
+  
+  .navbar {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+    
+  #container {
+    display: flex;
+  }
+    
+  main {
+    flex: 80%;
+  }
+    
+  aside {
+    flex: 20%;
+  }  
+  }
+
+
+  /**********
+  * CELULAR *
+  **********/
+  @media screen and (max-width: 768px) {
+  /* FORMATAÇÃO */
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* O comando abaixo, evita que o padding afete largura e altura */
+    box-sizing: border-box;
+  }
+
+  /*CABEÇALHO */
+  header {
+    color: black;
+    padding: 30px;
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: center;
+  }
+
+  /***************
+  * ASIDE E MAIN *
+  ***************/
+  aside {
+    padding: 12px;
+    height: 450px;
+  }
+
+  li {
+    list-style-type: none;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 9px;
+  }
+
+  code {
+    font-size: 18pt;
+    padding-left: 0%;
+  }
+
+  .most {
+    color: black;
+    font-size: 24px;
+  }
+    
+  main { 
+    padding: 12px; 
+    height: 2300px;
+  }
+
+  ul img {
+    width: 168px!important;
+    height: 250px!important;
+  }
+
+  .one, .two {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+
+  /*********
+  * RODAPÉ *
+  *********/
+  footer {
+    padding: 6px;
+    padding-top: 100px;
+  }
+  
+
+  /************
+  * PESQUISA  *
+  ************/
+  .search-form {
+    display: flex;
+    justify-content:center;
+    padding-left: 5px;
+  }
+
+  .search-box input {
+    border: none;
+    outline: none;
+    padding: 1px;
+    flex: 1;
+    font-size: 12px;
+  }
+
+  .search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #008080;
+    border-radius: 25px;
+    padding: 3px;
+    width: 280px;
+    background: white;
+  }
+
+  /************
+  * NAVEGAÇÃO *
+  *************/
+  .navbar {
+    list-style: none;
+    display: flex;
+    flex-flow:row;
+  }
+  
+  .navbar li {
+    padding: 10px;
+    text-align: center;
+    font-size: 10pt;
+  }
+  }
+
+  /******************
+  * DADOS DO ALUNO *
+  ******************/
+  footer {
+    display: flex;
+    flex-flow:column;
+    justify-content:space-between;
+    align-items:flex-start;
+  }
+
+  .aluno {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+  }
+
+  .social {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+  }
