@@ -14,5 +14,34 @@
       "nome": "Usuario Comum",
       "email": "user@abc.com"
     }
+  ],
+
+
+
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "Ainda Estou Aqui",
+      "diretor": "Walter Salles",
+      "ano": 2024,
+      "genero": "Drama / Obra de Época",
+      "avaliacao": 9.7
+    },
+    {
+      "id": 2,
+      "titulo": "Sonic 3",
+      "diretor": "Jeff Fowler",
+      "ano": 2024,
+      "genero": "SuspenAção / Comédia",
+      "avaliacao": 8.5
+    },
+    {
+      "id": 3,
+      "titulo": "Mufasa",
+      "diretor": "Barry Jenkins",
+      "ano": 2024,
+      "genero": "Aventura / Musical",
+      "avaliacao": 5.6
+    }
   ]
 }
