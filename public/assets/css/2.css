@@ -196,7 +196,7 @@
   }
 
   .card-text {
-    font-size: 16px;
+    font-size: 15px;
     color: white;
   }
 
@@ -219,6 +219,9 @@
     flex-flow:row;
     justify-content:space-between;
     align-items:flex-end ;
+    box-sizing: border-box;
+    border-left: none !important;
+    border-right: none !important;
   }
 
   .aluno {

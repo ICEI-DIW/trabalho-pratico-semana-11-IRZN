@@ -1,47 +1,46 @@
 {
-  "usuarios": [
-    {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
-    },
-    {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-    }
-  ],
-
-
-
   "filmes": [
     {
       "id": 1,
       "titulo": "Ainda Estou Aqui",
-      "diretor": "Walter Salles",
-      "ano": 2024,
-      "genero": "Drama / Obra de Época",
-      "avaliacao": 9.7
+      "imagem": "../img/filme 6.jpeg",
+      "descricao": "No início da década de 1970, o Brasil enfrenta o endurecimento da ditadura militar. No Rio de Janeiro, a família Paiva - Rubens, Eunice e seus cinco filhos - vive à beira da praia em uma casa de portas abertas para os amigos. Um dia, Rubens Paiva é levado por militares à paisana e desaparece. Eunice - cuja busca pela verdade sobre o destino de seu marido se estenderia por décadas - é obrigada a se reinventar e traçar um novo futuro para si e seus filhos.",
+      "link": "https://www.youtube.com/embed/_NzqP0jmk3o?si=lKfAHgdkhBF45GRp"
     },
     {
       "id": 2,
-      "titulo": "Sonic 3",
-      "diretor": "Jeff Fowler",
-      "ano": 2024,
-      "genero": "SuspenAção / Comédia",
-      "avaliacao": 8.5
+      "titulo": "SONIC 3",
+      "imagem": "../img/filme 5.jpg",
+      "descricao": "Sonic, Knuckles e Tails se juntam para enfrentar Shadow, um novo e misterioso inimigo com poderes diferentes de tudo que já enfrentaram antes. As habilidades do trio são superadas em todos os aspectos e eles precisam buscar uma improvável aliança.",
+      "link": "https://www.youtube.com/embed/eWYO0byvXbo?si=540MCZjJt8HfiQSN"
     },
     {
       "id": 3,
       "titulo": "Mufasa",
-      "diretor": "Barry Jenkins",
-      "ano": 2024,
-      "genero": "Aventura / Musical",
-      "avaliacao": 5.6
+      "imagem": "../img/filme 3.jpeg",
+      "descricao": "Mufasa, um filhote órfão, perdido e sozinho, conhece um simpático leão chamado Taka, herdeiro de uma linhagem real. O encontro ao acaso dá início a uma grande jornada de um grupo extraordinário em busca de seu destino, além de revelar a ascensão de um dos maiores reis das Terras do Orgulho.",
+      "link": "https://www.youtube.com/embed/3H9IG_4liiI?si=gm4i2bIg7_Ahutqn"
+    },
+    {
+      "id": 4,
+      "titulo": "Moana 2",
+      "imagem": "../img/filme 4.jpeg",
+      "descricao": "Moana viaja para os mares distantes depois de receber uma ligação inesperada de seus ancestrais.",
+      "link": "https://www.youtube.com/embed/DFnAWpQicqo?si=cGL2kqumEKqGGKH4"
+    },
+    {
+      "id": 5,
+      "titulo": "Coringa: Delírio a Dois",
+      "imagem": "../img/filme 2.webp",
+      "descricao": "Arthur Fleck está internado em Arkham, aguardando julgamento por seus crimes como o Coringa. Enquanto lida com sua dupla identidade, ele não só se depara com o amor verdadeiro, mas encontra a música que sempre esteve dentro de si.",
+      "link": "https://www.youtube.com/embed/exeVIM3j3y0?si=TtPd6LnqnCuuj-5q"
+    },
+    {
+      "id": 6,
+      "titulo": "Capitão América: Admirável Mundo Novo",
+      "imagem": "../img/filmes 1.webp",
+      "descricao": "Sam se vê no meio de um incidente internacional após se encontrar com o Presidente Thaddeus Ross. Ele precisa descobrir a razão por trás de um nefasto complô global antes que o verdadeiro mentor faça o mundo inteiro ver vermelho.",
+      "link": "https://www.youtube.com/embed/NP2xle2cmf0?si=MlJs8jyTRYgwhwGM"
     }
   ]
 }
