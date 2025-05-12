@@ -4,10 +4,11 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome: Iury Emanuel Alves da Silva
+- Matricula: 882503
+- Proposta de projeto escolhida: Catalogo de Filmes.
 - Breve descrição sobre seu projeto:
+Catalogo de avaliação de filmes.
 
 **Print do teste da API com visualização do JSON**
 
@@ -15,7 +16,7 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 **Print da aba NETWORK com requisições Fetch/XHR**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<image copy.png>)
 
 ## **Orientações Gerais**
 
